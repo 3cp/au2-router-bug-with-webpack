@@ -1,0 +1,10 @@
+<import from="./welcome-page"></import>
+<import from="./about-page.html"></import>
+<import from="./missing-page"></import>
+
+<nav>
+  <a goto="welcome-page">Welcome</a>
+  <a goto="about-page">About</a>
+</nav>
+
+<au-viewport default="welcome-page" fallback="missing-page"></au-viewport>
